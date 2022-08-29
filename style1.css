@@ -16,3 +16,13 @@ image{
 .title{
     font-size: 45px;
 }
+.column{
+    display: inline-block;
+    width: 48%;
+}
+.col1{
+    background-color: brown;
+}
+.col2{
+    background-color:yellow;
+}
