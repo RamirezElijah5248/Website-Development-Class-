@@ -26,3 +26,20 @@ image{
 .col2{
     background-color:yellow;
 }
+/**hero section**/
+
+.hero{
+    height: 100vh;
+    background-image: url("elephant.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    position: relative;
+
+}
+.intro{
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50% );
+}
