@@ -26,20 +26,39 @@ image{
 .col2{
     background-color:yellow;
 }
-/**hero section**/
-
 .hero{
-    height: 100vh;
-    background-image: url("elephant.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
-    
-    position: relative;
-
+    height: ;
 }
 .intro{
     position: absolute;
     left:50%;
     top: 50%;
     transform: translate(-50%,-50% );
+}
+/**about  section**/
+.container{
+    max-width: 50px;
+    display: block;
+    margin: auto;
+    max: height 75px; 
+}
+
+.col-30{
+    width: 29%;
+}
+.col-70{
+    width: 69;
+}
+.content {
+    padding-left: 20px ;
+    padding-right: 40px;
+    vertical-align: top;
+
+}
+@media screen and (max-width: 767px){
+    .column{
+        display: block;
+        width: 100%;
+         
+    } 
 }
