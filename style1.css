@@ -27,7 +27,7 @@ image{
     background-color:yellow;
 }
 .hero{
-    height: ;
+    height: 10;
 }
 .intro{
     position: absolute;
@@ -40,7 +40,7 @@ image{
     max-width: 50px;
     display: block;
     margin: auto;
-    max: height 75px; 
+    max-height:  75px; 
 }
 
 .col-30{
@@ -61,4 +61,22 @@ image{
         width: 100%;
          
     } 
+}
+.logo{
+    width: 35%;
+}
+.no-list, .nav-items {
+    list-style: none;
+    padding:0;
+
+}
+.nav-items li {
+    display:inline-block ;
+    width: 100px;
+
+}
+
+.nav-items li:hover{
+    background-color: yellow;
+    cursor: pointer;
 }
